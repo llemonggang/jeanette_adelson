@@ -1,0 +1,40 @@
+body {
+  font-family: 'Lora', serif;
+  background-color: #D58463;
+  color: #1B4354;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 200px;
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+  width: 50%;
+  height: 100px;
+  font-family: 'Lobster', cursive;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.rows {
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  line-height: 30px;
+}
+
+.first-li {
+  font-size: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+i {
+  color: rgba(178, 249, 123, 0.4);
+  font-size: 32px;
+  margin: 0px 0px 0px 40px;
+}
