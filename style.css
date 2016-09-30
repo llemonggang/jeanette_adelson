@@ -38,11 +38,16 @@ h1 {
 
 .container {
   display: inline-block;
-  margin: 0px 15px 0px 15px;
+  margin: 0px 15px 0px 15opx;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link, a:visited, a:active {
   color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7CF91B;
   text-decoration: none;
 }
 
