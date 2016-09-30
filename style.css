@@ -14,8 +14,9 @@ body {
   text-align: center;
   border-radius: 30px;
   padding: 20px;
-  height: 400px;
-  width: 250px;
+  height: 500px;
+  width: 200px;
+  float: left;
 }
 
 h1 {
@@ -27,6 +28,16 @@ h1 {
   text-align: center;
   width: 700px;
   height: 500px;
+  float: right;
+  margin-top: 0px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.container {
+  display: inline-block;
 }
 
 a:link, a:visited, a:hover, a:active {
