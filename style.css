@@ -1,40 +1,62 @@
 body {
   font-family: 'Lora', serif;
-  background-color: #D58463;
-  color: #1B4354;
-  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  color: black;
+  font-family: 'Lato', sans-serif;
 }
 
 h1 {
-  display: inline-block;
-  font-size: 200px;
-  text-align: center;
-  padding: 50px;
-  margin: auto;
-  width: 50%;
-  height: 100px;
   font-family: 'Lobster', cursive;
   color: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  background-color: #D58463;float: left;
+  font-size: 200px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 0px;
+  width: 700px;
+  height: 500px;
+  margin: 40px 20px 40px 20px;
 }
 
 .rows {
+  margin: 40px 40px 20px 20px;
   display: inline-block;
   font-size: 20px;
   text-transform: uppercase;
-  font-weight: lighter;
+  font-weight: lighter;;
   line-height: 30px;
+  background-color: rgba(177, 118, 92, 0.3);
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  height: 400px;
+  float: left;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: black;
+  text-decoration: none;
 }
 
 .first-li {
   font-size: 10px;
 }
 
-li {
+ul {
   list-style: none;
+  padding: 0px;
 }
 
 i {
   color: rgba(178, 249, 123, 0.4);
   font-size: 32px;
-  margin: 0px 0px 0px 40px;
+  margin: 0px 0px 0px -5px;
+}
+
+.glyphs {
+  background-image: url('./images/dots.png');
+  background-size: 30px;
+  height: 60px;
+
 }
