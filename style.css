@@ -20,7 +20,7 @@ h1 {
 }
 
 .rows {
-  margin: 40px 40px 20px 20px;
+  margin: 40px 40px 20px 40px;
   display: inline-block;
   font-size: 20px;
   text-transform: uppercase;
