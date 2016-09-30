@@ -5,7 +5,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.rows {
+.list {
   font-size: 20px;
   text-transform: uppercase;
   font-weight: lighter;
@@ -16,7 +16,6 @@ body {
   padding: 20px;
   height: 500px;
   width: 200px;
-  float: left;
 }
 
 h1 {
@@ -26,19 +25,9 @@ h1 {
   background-color: #D58463;
   font-size: 200px;
   text-align: center;
-  width: 700px;
+  width: 800px;
   height: 500px;
-  float: right;
   margin-top: 0px;
-}
-
-.inline {
-  display: inline-block;
-}
-
-.container {
-  display: inline-block;
-  margin: 0px 15px 0px 15opx;
 }
 
 a:link, a:visited, a:active {
