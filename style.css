@@ -32,14 +32,14 @@ body {
   border-width: 5px;
   border-style: solid;
   margin-top: 15px;
+  text-align: center;
 }
 
 h1 {
   font-family: 'Lobster', cursive;
   color: rgba(255, 255, 255, 0.3);
-  font-size: 200px;
+  font-size: 75px;
   text-align: center;
-  margin-top: 0px;
 }
 
 a:link, a:visited, a:active {
@@ -71,4 +71,10 @@ i {
   background-image: url('./images/dots.png');
   background-size: 30px;
   height: 60px;
+}
+
+.jeanette {
+  height: 350px;
+  width: auto;
+  border-radius: 15px;
 }
