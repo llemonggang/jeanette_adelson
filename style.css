@@ -12,24 +12,26 @@ body {
   background-color: rgba(177, 118, 92, 0.3);
   text-align: center;
   border-radius: 30px;
-  border-color: #752B3A;
+  border-color: #060A26;
   border-width: 5px;
   border-style: solid;
   padding: 20px;
   max-height: 600px;
   min-height: 600px;
-  margin-right: 15px;
+  margin-right: 25px;
+  margin-top: 15px;
 }
 
 .name-box {
   max-width: 700px;
   max-height: 600px;
   min-height: 600px;
-  background-color: #D58463;
+  background-color: #A1A3B0;
   border-radius: 30px;
-  border-color: #752B3A;
+  border-color: #060A26;
   border-width: 5px;
   border-style: solid;
+  margin-top: 15px;
 }
 
 h1 {
