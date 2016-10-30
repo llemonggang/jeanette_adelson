@@ -81,3 +81,26 @@ i {
   border-color: #060A26;
   border-style: solid;
 }
+
+.container-two {
+  margin: 30px;
+  font-size: 20px;
+}
+
+.head-three {
+  font-weight: 600;
+}
+
+.project-imgs {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin: 0px 20px 0px 0px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #060A26;
+}
+
+.single {
+  margin-top: 50px;
+}
