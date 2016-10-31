@@ -88,7 +88,7 @@ i {
   width: 300px;
   height: auto;
   float: left;
-  margin: 0px 20px 0px 0px;
+  margin: 0px 30px 0px 0px;
   border-width: 5px;
   border-style: solid;
   border-color: #060A26;
@@ -155,4 +155,9 @@ footer>img {
   height: 50px;
   width: auto;
   padding: 5px;
+}
+
+#tic-list {
+  list-style: circle;
+  clear: left;
 }
