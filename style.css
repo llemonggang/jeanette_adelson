@@ -165,7 +165,7 @@ footer>img {
 }
 
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   .list {
     height: 600px;
     width: 300px;
