@@ -165,7 +165,7 @@ footer>img {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 200px) {
   .list {
     height: 600px;
     width: 300px;
@@ -181,5 +181,9 @@ footer>img {
   #me {
     height: 150px;
     width: auto;
+  }
+  .project-imgs {
+    width: 150px;
+    height: auto;
   }
 }
