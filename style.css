@@ -94,10 +94,6 @@ i {
   border-color: #060A26;
 }
 
-.single {
-  height: auto;
-}
-
 h2 {
   text-align: center;
   font-weight: 600;
@@ -106,7 +102,7 @@ h2 {
 .about {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 25px;
-  height: auto;
+  min-height: 500px;
   width: auto;
   line-height: 35px;
   border-radius: 15px;
@@ -159,6 +155,9 @@ footer>img {
 
 #tic-list {
   list-style: circle;
-  clear: left;
   margin-left: 25px;
+}
+
+.single {
+  min-height: 250px;
 }
