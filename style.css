@@ -160,4 +160,5 @@ footer>img {
 #tic-list {
   list-style: circle;
   clear: left;
+  margin-left: 25px;
 }
