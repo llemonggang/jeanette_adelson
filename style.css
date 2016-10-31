@@ -166,10 +166,19 @@ footer>img {
 
 @media (max-width: 400px) {
   .list {
-    padding: 20px;
     height: 600px;
-    width: 250px;
-    margin-bottom: 80px;
-    float: left;
+    width: 300px;
+  }
+  .name-box {
+    height: 600px;
+    width: 300px;
+  }
+  .jeanette {
+    height: 150px;
+    width: auto;
+  }
+  #me {
+    height: 150px;
+    width: auto;
   }
 }
