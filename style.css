@@ -165,7 +165,6 @@ footer>img {
 }
 
 
-//iphone
 @media (max-width: 300px) {
   .list {
     height: 600px;
