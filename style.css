@@ -168,11 +168,13 @@ footer>img {
 @media (max-width: 500px) {
   .list {
     height: 600px;
-    width: 300px;
+    width: 308px;
   }
   .name-box {
     height: 600px;
-    width: 300px;
+    width: 308px;
+    float: none;
+    clear: both;
   }
   .jeanette {
     height: 150px;
