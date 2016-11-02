@@ -4,6 +4,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+#list li {
+  display: inline-block;
+  padding: 10px;
+}
+
 .list {
   font-size: 20px;
   text-transform: uppercase;
@@ -16,10 +21,9 @@ body {
   border-width: 5px;
   border-style: solid;
   padding: 20px;
-  height: 600px;
-  width: 250px;
+  height: auto;
+  width: auto;
   margin-bottom: 80px;
-  float: left;
 }
 
 .name-box {
@@ -31,8 +35,7 @@ body {
   border-style: solid;
   text-align: center;
   margin-bottom: 80px;
-  width: 650px;
-  float: right;
+  width: auto;
 }
 
 h1 {
