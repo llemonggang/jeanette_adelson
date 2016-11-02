@@ -171,10 +171,6 @@ footer>img {
 
 
 @media (max-width: 500px) {
-  .first-li {
-    content: '\A';
-    white-space: pre;
-  }
   .jeanette {
     height: 150px;
     width: auto;
