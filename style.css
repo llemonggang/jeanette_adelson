@@ -171,7 +171,7 @@ footer>img {
 
 
 @media (max-width: 500px) {
-  .list {
+  /*.list {
     height: 600px;
     width: 308px;
   }
@@ -180,7 +180,7 @@ footer>img {
     width: 308px;
     float: none;
     clear: both;
-  }
+  }*/
   .jeanette {
     height: 150px;
     width: auto;
