@@ -41,7 +41,8 @@ body {
   border-style: solid;
   text-align: center;
   margin-bottom: 80px;
-  width: auto;
+  width: 800px;
+  float: right;
 }
 
 h1 {
@@ -182,5 +183,36 @@ footer>img {
   .project-imgs {
     width: 150px;
     height: auto;
+  }
+}
+
+#feather {
+  margin-left: -25%;
+  margin-top: -35%;
+  margin-bottom: -90%;
+}
+
+#:hover {
+  animation-name: twirl;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes twirl {
+    from {
+        transform:rotateY(0deg);
+    }
+    to {
+        transform:rotateY(360deg);
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+  #feather {
+    display: none;
+  }
+
+  .name-box {
+    width: 100%;
   }
 }
