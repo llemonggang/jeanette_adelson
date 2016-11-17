@@ -192,7 +192,7 @@ footer>img {
   margin-bottom: -90%;
 }
 
-#:hover {
+#feather:hover {
   animation-name: twirl;
   animation-duration: 1000ms;
   animation-iteration-count: infinite;
