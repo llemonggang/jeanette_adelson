@@ -110,7 +110,7 @@ h2 {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 25px;
   min-height: 500px;
-  width: auto;
+  width: 800px;
   line-height: 35px;
   border-radius: 15px;
   border-width: 5px;
@@ -118,7 +118,7 @@ h2 {
   border-style: solid;
 }
 
-.fa-arrow-circle-up {
+.fa-antlers-circle-up {
   padding: 10px;
 }
 
@@ -145,7 +145,8 @@ h2 {
 
 #about-box {
   margin-bottom: 80px;
-  clear: both;
+  width: 100%;
+  clear: right;
 }
 
 footer {
@@ -186,13 +187,13 @@ footer>img {
   }
 }
 
-#feather {
-  margin-left: -25%;
-  margin-top: -35%;
-  margin-bottom: -90%;
+.feather {
+  height: 250px;
+  width: auto;
+  position: relative;
 }
 
-#feather:hover {
+.feather:hover {
   animation-name: twirl;
   animation-duration: 1000ms;
   animation-iteration-count: infinite;
@@ -208,8 +209,14 @@ footer>img {
     }
 }
 
+#antlers {
+  height: 150px;
+  margin-left: 35%;
+  position: relative;
+}
+
 @media screen and (min-width: 0px) and (max-width: 1199px) {
-  #feather {
+  .feather {
     margin-left: -10%;
     height: 300px;
     width: auto;
