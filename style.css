@@ -186,6 +186,10 @@ footer>img {
   }
 }
 
+#feather-break {
+  display: none;
+}
+
 #feather {
   margin-left: -25%;
   margin-top: -35%;
@@ -207,12 +211,26 @@ footer>img {
         transform:rotateY(360deg);
     }
 }
-@media screen and (min-width: 0px) and (max-width: 1199px) {
+
+@media screen and (min-width: 321px) and (max-width: 1199px) {
   #feather {
-    display: none;
+    margin-left: -10%;
+    height: 300px;
+    width: auto;
   }
 
   .name-box {
+    width: 70%;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  #feather {
+    display: block;
     width: 100%;
   }
+
+  .name-box {
+    display: block;
+    width: 100%;
 }
