@@ -186,10 +186,6 @@ footer>img {
   }
 }
 
-#feather-break {
-  display: none;
-}
-
 #feather {
   margin-left: -25%;
   margin-top: -35%;
@@ -212,7 +208,7 @@ footer>img {
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 1199px) {
+@media screen and (min-width: 0px) and (max-width: 1199px) {
   #feather {
     margin-left: -10%;
     height: 300px;
@@ -221,11 +217,4 @@ footer>img {
 
   .name-box {
     width: 70%;
-}
-
-
-@media screen and (min-width: 0px) and (max-width: 320px) {
-  #feather {
-    display: none;
-  }
 }
