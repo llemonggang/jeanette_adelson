@@ -6,34 +6,11 @@ body {
 
 #list li {
   display: inline-block;
-  padding: 20px;
-}
-
-.first-li {
-  font-size: 10px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bold;
-}
-
-.list {
-  text-align: center;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: lighter;
-  line-height: 45px;
-  background-color: rgba(177, 118, 92, 0.3);
-  border-radius: 15px;
-  border-color: #060A26;
-  border-width: 5px;
-  border-style: solid;
-  padding: 20px;
-  height: auto;
-  width: auto;
-  margin-bottom: 80px;
+  padding: 10px 20px 10px 20px;
 }
 
 .name-box {
-  height: 600px;
+  height: 650px;
   background-color: rgba(239, 113, 11, 0.3);
   border-radius: 15px;
   border-color: #060A26;
@@ -82,7 +59,8 @@ i {
 }
 
 .container {
-  margin: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
   font-size: 20px;
 }
 
@@ -167,7 +145,7 @@ footer>img {
 }
 
 .single {
-  min-height: 250px;
+  height: 350px;
 }
 
 
@@ -187,9 +165,13 @@ footer>img {
 }
 
 .feather {
-  height: 250px;
+  height: 275px;
   width: auto;
-  position: relative;
+  margin: 20px;
+}
+
+#feather-list {
+  float: left;
 }
 
 .feather:hover {
