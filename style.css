@@ -30,7 +30,7 @@ h1 {
 }
 
 a:link, a:visited, a:active {
-  color: black;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -64,11 +64,6 @@ i {
   font-size: 20px;
 }
 
-.head-three {
-  font-weight: 600;
-  color: #08B691;
-}
-
 .project-imgs {
   width: 300px;
   height: auto;
@@ -79,24 +74,20 @@ i {
   border-color: #060A26;
 }
 
+.projects h1 {
+  font-family: 'Lobster', cursive;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 75px;
+  text-align: left;
+  display: inline;
+}
+
 h2 {
   text-align: center;
   font-weight: 600;
 }
 
-.about {
-  background-color: rgba(0, 0, 0, 0.2);
-  padding: 25px;
-  min-height: 400px;
-  width: 800px;
-  line-height: 35px;
-  border-radius: 15px;
-  border-width: 5px;
-  border-color: #060A26;
-  border-style: solid;
-}
-
-.about p {
+#about p {
   float: right;
 }
 
@@ -119,10 +110,22 @@ h2 {
   border-style: solid;
 }
 
-#about-box {
+.project {
+  padding: 30px;
+}
+
+#about {
   margin-bottom: 80px;
   width: 100%;
   clear: right;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  min-height: 400px;
+  line-height: 35px;
+  border-radius: 15px;
+  border-width: 5px;
+  border-color: #060A26;
+  border-style: solid;
 }
 
 footer {
@@ -140,14 +143,12 @@ footer>img {
 
 #tic-list {
   list-style: circle;
-  margin-left: 35%;
-  margin-top: -12%;
 }
 
-.single {
+.project p {
   height: 350px;
+  display: inline;
 }
-
 
 @media (max-width: 500px) {
   .jeanette {
