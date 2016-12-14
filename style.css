@@ -6,7 +6,7 @@ body {
 
 #list li {
   display: inline-block;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px 0px 20px;
 }
 
 .name-box {
@@ -148,6 +148,12 @@ footer>img {
 .project p {
   height: 350px;
   display: inline;
+}
+
+#consultation {
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 500px) {
