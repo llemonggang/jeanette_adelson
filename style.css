@@ -9,7 +9,7 @@ body {
   padding: 10px 20px 0px 20px;
 }
 
-.name-box {
+#name-box {
   height: 650px;
   background-color: rgba(239, 113, 11, 0.3);
   border-radius: 15px;
@@ -18,8 +18,7 @@ body {
   border-style: solid;
   text-align: center;
   margin-bottom: 80px;
-  width: 800px;
-  float: right;
+  width: auto;
 }
 
 h1 {
@@ -88,7 +87,7 @@ h2 {
 }
 
 #about p {
-  float: right;
+  padding: 25px;
 }
 
 #antlers {
@@ -116,11 +115,8 @@ h2 {
 
 #about {
   margin-bottom: 80px;
-  width: 100%;
-  clear: right;
   background-color: rgba(0, 0, 0, 0.2);
   padding: 25px;
-  min-height: 400px;
   line-height: 35px;
   border-radius: 15px;
   border-width: 5px;
@@ -154,56 +150,4 @@ footer>img {
   font-weight: 600;
   font-size: 15px;
   text-transform: uppercase;
-}
-
-@media (max-width: 500px) {
-  .jeanette {
-    height: 150px;
-    width: auto;
-  }
-  #me {
-    height: 150px;
-    width: auto;
-  }
-  .project-imgs {
-    width: 150px;
-    height: auto;
-  }
-}
-
-.feather {
-  height: 275px;
-  width: auto;
-  margin: 20px;
-}
-
-#feather-list {
-  float: left;
-}
-
-.feather:hover {
-  animation-name: twirl;
-  animation-duration: 1000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes twirl {
-    from {
-        transform:rotateY(0deg);
-    }
-    to {
-        transform:rotateY(360deg);
-    }
-}
-
-@media screen and (min-width: 0px) and (max-width: 1199px) {
-  .feather {
-    margin-left: -10%;
-    height: 300px;
-    width: auto;
-  }
-
-  .name-box {
-    width: 70%;
 }
