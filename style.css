@@ -21,10 +21,6 @@ body {
   width: auto;
 }
 
-#me {
-  margin: 10px;
-}
-
 h1 {
   font-family: 'Lobster', cursive;
   color: rgba(255, 255, 255, 0.3);
@@ -148,4 +144,10 @@ footer>img {
   font-weight: 600;
   font-size: 15px;
   text-transform: uppercase;
+}
+
+@media screen and (max-width : 999px) {
+  #me {
+    display: none;
+  }
 }
