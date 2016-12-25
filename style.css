@@ -149,5 +149,6 @@ footer>img {
 @media screen and (max-width : 999px) {
   #me {
     display: none;
+    height: 350px;
   }
 }
