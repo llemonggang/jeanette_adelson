@@ -141,6 +141,10 @@ footer>img {
   display: inline;
 }
 
+.project-body {
+  padding-bottom: 20px;
+}
+
 #consultation {
   font-weight: 600;
   font-size: 15px;
@@ -173,5 +177,6 @@ footer>img {
   }
   .project-body {
     padding-top: 10px;
+    padding-bottom: none;
   }
 }
