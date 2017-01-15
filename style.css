@@ -46,7 +46,6 @@ ul {
 
 #project-list {
   padding-bottom: 75px;
-  
 }
 
 i {
@@ -185,8 +184,7 @@ hr {
     text-align: justify;
   }
   #antlers {
-    float: none;
-    margin: auto;
+    display: none;
   }
   .project-body {
     padding-top: 10px;
