@@ -164,4 +164,10 @@ footer>img {
   .projects h1 {
     font-size: 45px;
   }
+  body {
+    text-align: justify;
+  }
+  #antlers {
+    float: none;
+  }
 }
