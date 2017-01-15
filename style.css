@@ -171,8 +171,9 @@ footer>img {
     float: none;
     margin: auto;
   }
-  .project-header {
+  .project-pic {
     padding-top: 10px;
+    text-align: center;
   }
   .project-body {
     padding-top: 10px;
