@@ -44,6 +44,11 @@ ul {
   padding: 0px;
 }
 
+#project-list {
+  padding-bottom: 75px;
+  
+}
+
 i {
   color: #08B691;
   margin: 0px 0px 0px -5px;
@@ -143,6 +148,14 @@ footer>img {
 
 .project-body {
   padding-bottom: 20px;
+}
+
+.project-pic {
+  margin-bottom: 40px;
+}
+
+hr {
+  width: 100%;
 }
 
 #consultation {
