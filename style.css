@@ -169,10 +169,9 @@ footer>img {
   }
   #antlers {
     float: none;
-    margin: 0 auto;
+    margin: auto;
   }
   .project p {
-    padding: 10px 0px 10px 0px;
-
+    padding: 20px 0px 20px 0px;
   }
 }
