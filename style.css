@@ -1,3 +1,21 @@
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #000000;
+  font-size: 75px;
+  text-align: center;
+}
+
+#contactNav {
+  display: inline-block;
+}
+
+#contactNav li{
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
 body {
   background-color: white;
   color: black;
@@ -5,12 +23,16 @@ body {
   font-size: 25px;
 }
 
-#list li {
+#sectionOne {
   display: inline-block;
-  padding: 10px 20px 0px 20px;
 }
 
-#name-box {
+#sectionOne li {
+  float: left;
+  margin-left: 5px;
+}
+
+#sectionTwo {
   height: 650px;
   background-color: rgba(239, 113, 11, 0.3);
   border-radius: 15px;
@@ -20,14 +42,12 @@ body {
   text-align: center;
   margin-bottom: 80px;
   width: auto;
+  clear: both;
 }
 
-h1 {
-  font-family: 'Lobster', cursive;
-  color: rgba(255, 255, 255, 0.3);
-  font-size: 75px;
-  text-align: center;
+#title_info {
 }
+
 
 a:link, a:visited, a:active {
   color: inherit;
@@ -53,9 +73,9 @@ i {
   margin: 0px 0px 0px -5px;
 }
 
-.jeanette {
+.border {
   height: 350px;
-  width: auto;
+  width: 275px;
   border-radius: 15px;
   border-width: 5px;
   border-color: #060A26;
