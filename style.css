@@ -105,31 +105,16 @@ footer>img {
 
 /*START RESPONSIVE*/
 
+/*START RESPONSIVE*/
+
 @media screen and (max-width : 999px) {
-  #me {
-    display: none;
+  #sectionTwo {
+    width: 275px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .project-imgs {
-    width: 175px;
-    height: auto;
-  }
-  .project {
-    padding: 10px;
-  }
-  .projects h1 {
-    font-size: 45px;
-  }
-  body {
-    text-align: justify;
-  }
-  #antlers {
-    display: none;
-  }
-  .project-body {
-    padding-top: 10px;
-    padding-bottom: none;
+  #sectionTwo {
+    width: 275px;
   }
 }
