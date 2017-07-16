@@ -1,3 +1,10 @@
+#construction {
+  color: #FF1DA7;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
 h1 {
   font-family: 'Lobster', cursive;
   color: #000000;
