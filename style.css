@@ -99,12 +99,12 @@ hr {
   25%  {background-color: #BDDCE3;}
 }
 
-#feather:hover {
-  animation-name: feather;
+#featherFooter:hover {
+  animation-name: featherFooter;
   animation-duration: 3s;
 }
 
-@keyframes feather {
+@keyframes featherFooter {
   from { transform: scaleX(-1); }
     to { transform: scaleX(-1); }
 }
