@@ -33,7 +33,7 @@ ul {
 }
 
 i {
-  color: #EA7708;
+  color: #FFD222;
   margin: 0px 0px 0px -5px;
 }
 
@@ -78,7 +78,7 @@ hr {
 .sections  {
   float: left;
   border-radius: 30px;
-  background-color: #C2ECE4;height: 250px;
+  background-color: #81D1E3;height: 250px;
   width: 23%;
   border-right: solid;
 }
