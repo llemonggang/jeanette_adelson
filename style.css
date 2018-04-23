@@ -89,93 +89,15 @@ hr {
   border-color: #5C95A2;
 }
 
-#one {
-  animation-name: one;
+.sections:hover {
+  animation-name: sections;
   animation-duration: .25s;
 }
 
-@keyframes one {
+@keyframes sections {
   0%   {background-color: #81D1E3;}
   25%  {background-color: #BDDCE3;}
 }
-
-#two {
-  animation-name: two;
-  animation-delay: .25s;
-  animation-duration: .25s;
-}
-
-@keyframes two {
-  0%   {background-color: #81D1E3;}
-  25%  {background-color: #BDDCE3;}
-}
-
-#three {
-  animation-name: three;
-  animation-delay: .5s;
-  animation-duration: .25s;
-}
-
-@keyframes three {
-  0%   {background-color: #81D1E3;}
-  25%  {background-color: #BDDCE3;}
-}
-
-#four {
-  animation-name: four;
-  animation-delay: .75s;
-  animation-duration: .25s;
-}
-
-@keyframes four {
-  0%   {background-color: #81D1E3;}
-  25%  {background-color: #BDDCE3;}
-}
-
-#five {
-  animation-name: five;
-  animation-delay: 1s;
-  animation-duration: .25s;
-}
-
-@keyframes five {
-  0%   {background-color: #81D1E3;}
-  25%  {background-color: #BDDCE3;}
-}
-
-#six {
-  animation-name: six;
-  animation-delay: 1.25s;
-  animation-duration: .25s;
-}
-
-@keyframes six {
-  0%   {background-color: #81D1E3;}
-  25%  {background-color: #BDDCE3;}
-}
-
-#seven {
-  animation-name: seven;
-  animation-delay: 1.5s;
-  animation-duration: .25s;
-}
-
-@keyframes seven {
-  0%   {background-color: #81D1E3;}
-  25%  {background-color: #BDDCE3;}
-}
-
-#eight {
-  animation-name: eight;
-  animation-delay: 1.75s;
-  animation-duration: .25s;
-}
-
-@keyframes eight {
-  0%   {background-color: #81D1E3;}
-  25%  {background-color: #BDDCE3;}
-}
-
 
 
 
