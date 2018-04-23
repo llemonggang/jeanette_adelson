@@ -78,10 +78,7 @@ hr {
 .sections  {
   margin: 5px;
   float: left;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-radius: 50px;
   background-color: #81D1E3;
   height: 250px;
   width: 23%;
@@ -89,14 +86,25 @@ hr {
   border-color: #5C95A2;
 }
 
-.sections:hover {
-  animation-name: sections;
-  animation-duration: .25s;
+#one:hover {
+  animation-name: one;
+  animation-duration: .5s;
+  animation-timing-function: ease;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
 }
 
-@keyframes sections {
-  0%   {background-color: #81D1E3;}
-  25%  {background-color: #BDDCE3;}
+@keyframes one {
+  0%   {background-color: #81D1E3; border-color: #5C95A2; border-radius: 50px; height: 250px; width: 23%;}
+  20%  {background-color: #BDDCE3; border-color: #BDDCE3; border-radius: 75px; height: 220px; width: 220px;}
+  30%  {background-color: #BDDCE3; border-color: #BDDCE3; border-radius: 100px; height: 200px; width: 200px;}
+  40%  {background-color: #BDDCE3; border-color: #BDDCE3; border-radius: 125px; height: 180px; width: 180px;}
+  50%  {background-color: #BDDCE3; border-color: #BDDCE3; border-radius: 150px; height: 160px; width: 160px;}
+  60%  {background-color: #BDDCE3; border-color: #F1F6F5; border-radius: 175px; height: 140px; width: 140px;}
+  70%  {background-color: #BDDCE3; border-color: #F1F6F5; border-radius: 200px; height: 120px; width: 120px;}
+  80%  {background-color: #BDDCE3; border-color: #F1F6F5; border-radius: 225px; height: 100px; width: 100px;}
+  90%  {background-color: #BDDCE3; border-color: #F1F6F5; border-radius: 200px; height: 80px; width: 80px;}
+  100%  {background-color: #F1F6F5; border-color: #F1F6F5; border-radius: 200px; height: 60px; width: 60px;}
 }
 
 #featherFooter:hover {
@@ -108,7 +116,6 @@ hr {
   from { transform: scaleX(-1); }
     to { transform: scaleX(-1); }
 }
-
 
 
 
