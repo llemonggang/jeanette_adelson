@@ -1,5 +1,5 @@
 h1 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Shadows Into Light', cursive;
   color: #000000;
   font-size: 75px;
   text-align: right;
@@ -53,6 +53,7 @@ footer img {
 
 footer p {
   display: inline;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 hr {
@@ -77,7 +78,7 @@ hr {
 .sections  {
   float: left;
   border-radius: 30px;
-  background-color: #C2ECE4;height: 350px;
+  background-color: #C2ECE4;height: 250px;
   width: 23%;
   border-right: solid;
 }
