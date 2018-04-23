@@ -87,8 +87,51 @@ hr {
   width: 23%;
   border-right: solid;
   border-color: #5C95A2;
-  transform: rotate(0deg);
 }
+
+#one {
+  animation-name: one;
+  animation-duration: .25s;
+}
+
+@keyframes one {
+  0%   {background-color: #81D1E3;}
+  25%  {background-color: #BDDCE3;}
+}
+
+#two {
+  animation-name: two;
+  animation-delay: .25s;
+  animation-duration: .25s;
+}
+
+@keyframes two {
+  0%   {background-color: #81D1E3;}
+  25%  {background-color: #BDDCE3;}
+}
+
+#three {
+  animation-name: three;
+  animation-delay: .5s;
+  animation-duration: .25s;
+}
+
+@keyframes three {
+  0%   {background-color: #81D1E3;}
+  25%  {background-color: #BDDCE3;}
+}
+
+#four {
+  animation-name: four;
+  animation-delay: .75s;
+  animation-duration: .25s;
+}
+
+@keyframes four {
+  0%   {background-color: #81D1E3;}
+  25%  {background-color: #BDDCE3;}
+}
+
 
 
 
