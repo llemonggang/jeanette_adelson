@@ -96,6 +96,11 @@ hr {
     to { transform: scaleX(-1); }
 }
 
+#mandala {
+  height: 100%;
+  float: right;
+}
+
 
 
 
