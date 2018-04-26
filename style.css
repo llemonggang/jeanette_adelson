@@ -29,6 +29,7 @@ a:hover {
 }
 
 ul {
+  padding: 0;
   list-style: none;
 }
 
@@ -98,8 +99,46 @@ hr {
 
 #mandala {
   height: 100%;
-  float: right;
+  width: 100%;
+  margin: auto;
 }
+
+.mandala {  
+  animation-name: mandala; 
+  animation-duration: .5s; 
+  animation-timing-function: ease; 
+  animation-iteration-count: 1;  
+  animation-direction: alternate;  
+}  
+ 
+@keyframes mandala { 
+  0%   {border-right: solid; border-radius: 50px;} 
+  20%  {border-right: none; border-radius: 75px;} 
+  30%  {border-right: none; border-radius: 100px;}  
+  40%  {border-right: none; border-radius: 125px;}  
+  50%  {border-right: none; border-radius: 150px;}  
+  60%  {border-right: none; border-radius: 175px;}  
+  70%  {border-right: none; border-radius: 200px;}  
+  80%  {border-right: none; border-radius: 225px;}  
+  90%  {border-right: none; border-radius: 200px;}  
+  100%  {border-right: none; border-radius: 225px;}
+}
+
+.mandalaStop {
+  margin: 5px;
+  float: left;
+  background-color: #81D1E3;
+  height: 250px;
+  width: 23%;
+  border-color: #5C95A2;
+  border-right: none; 
+  border-radius: 225px;
+}
+
+
+
+
+
 
 
 
